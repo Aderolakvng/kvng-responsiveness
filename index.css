@@ -98,11 +98,12 @@
 
          .bigcontainer {
             display: flex;
+            align-items: center;
             justify-items: center;
             justify-content: space-between;
             width: 100%;
-            gap: 30px;
-            margin-top: 30px;
+            gap: 50px;
+            margin-top: 50px;
             border: thin solid black;
             /* align-items: center; */
             /* text-align: center; */
@@ -118,15 +119,14 @@
             width: 50%;
             /* height: 50%; */
             color: aliceblue;
-         }
-
-         .wave1 {
-            margin-top: 15px;
-            
+            margin-top: 30px;
          }
 
          .wave h2 {
-            margin-top: 10px;
+            margin-top: 60px;
+            font-weight: bold;
+            font-size: 50px;
+        
          }
 
         .mybtn {
@@ -186,6 +186,7 @@
 
             .wave {
                 width: 100%;
+                
             }
             .wave1 {
                 width: 100%;
