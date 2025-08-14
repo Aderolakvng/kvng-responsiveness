@@ -63,7 +63,7 @@
             margin-top: 30px;
             gap: 50px;
             justify-content: space-between;
-            width
+            
         }
 
         .thediv img {
@@ -94,11 +94,54 @@
 
             text-underline-offset: 20px;
             /* text-decoration: underline; */
+         }
+
+         .bigcontainer {
+            display: flex;
+            justify-items: center;
+            justify-content: space-between;
+            width: 100%;
+            gap: 30px;
+            margin-top: 30px;
+            border: thin solid black;
+            /* align-items: center; */
+            /* text-align: center; */
+            height: 100%;
+            justify-content: center;
+            background:linear-gradient(to right, rgba(60, 34, 60, 0.267) , rgb(3, 6, 54)),url(./DSC_9054-scaled.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+         }
+
+         .wave {
+            width: 50%;
+            /* height: 50%; */
+            color: aliceblue;
+         }
+
+         .wave1 {
+            margin-top: 15px;
+            
+         }
+
+         .wave h2 {
+            margin-top: 10px;
+         }
+
+        .mybtn {
+            border-radius: 30px;
+        }
+       
+
         
 
-        }
+
+
+
 
         @media (max-width: 980px) {
+            /* section one */
              .Raw {
             width: 80%;
             /* border: thin solid black; */
@@ -115,21 +158,8 @@
             width: 100%;
         
         }
-        }
-        @media (max-width:605px) {
-            .rawimg img {
-            width: 100%;
 
-        }
-         h1 {
-            font-size: 3rem;
-            
-        }
-
-        }
-
-        @media (max-width :980px) {
-            .thediv {
+         .thediv {
                 width: 80%;
             flex-direction: column;
             }
@@ -145,9 +175,47 @@
         
         }
         .thediv p {
-            width: 100%;
+            font-size: 10px;
         }
+
+            .bigcontainer{
+                width: 80%;
+                flex-direction: column;
+                margin: auto;
+            }
+
+            .wave {
+                width: 100%;
+            }
+            .wave1 {
+                width: 100%;
+            }
+
+        }
+        @media (max-width:605px) {
+            .rawimg img {
+            width: 100%;
+
+        }
+         h1 {
+            font-size: 3rem;
             
+        }
+        iframe{
+            width: 80%;
+            display: block;
+            margin: auto;
+        }
+
+        }
+
+      @media (max-width :577px) {
+            .wave p{
+                font-size: 1rem;
+            }
+            .wave{
+                padding: 20px;
+            }
         }
 
         
